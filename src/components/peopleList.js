@@ -6,7 +6,7 @@ export class PeopleList extends Component {
   componentDidMount() {
     if (this.props.dispatch) {
       this.props.dispatch(fetchPeople());
-      console.log("I am people in DOM:", this.props)
+      // console.log("I am people in DOM:", this.props)
     }
   }
 
@@ -23,14 +23,15 @@ export class PeopleList extends Component {
     return (
       <div className="posts-list-current-user">
         HELLO FROM PEOPLE LIST
-        {/* {myPosts && myPosts.map(post => (
-            <div key={post.id} className="border my-1 p-2">
-              <div><small>By: {currentUser.name}</small></div>
-              <h5><strong>{post.title}</strong></h5>
-              <div>{post.body}</div>
-            </div>
-          )
-        )} */}
+        <hr />
+        {console.log("I AM PEOPLE IN RETURN:", people)}
+        {people && people.map(person => (
+          <div key={person.id} className="border my-1 p-2">
+            <h4>By: {person.name}</h4>
+            <p>{person.email}</p>
+            <hr />
+          </div>
+        ))}
       </div>
     )
   }
