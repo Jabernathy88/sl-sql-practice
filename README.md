@@ -16,7 +16,10 @@ This is how the exercise is structured with an indication of how much of the tot
 
 - [Part 1 - database design (10%)](#1-design-a-database)
 - [Part 2 - sql hunt (30%)](#2-the-sql-hunt)
+
 - [Part 3 - simple web app (60%)](#3-build-a-simple-web-app)
+
+See React app link, TBD.
 
 ### 1. Design a database
 
