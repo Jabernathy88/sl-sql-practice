@@ -2,8 +2,9 @@
   "name": "sl-sql-practice",
   "version": "0.1.0",
   "private": true,
-  "buildpacks": {
-    "url": "mars/create-react-app"
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.9.0"
   },
   "dependencies": {
     "dotenv": "^8.1.0",
