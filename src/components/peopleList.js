@@ -6,7 +6,7 @@ export class PeopleList extends Component {
   componentDidMount() {
     if (this.props.dispatch) {
       this.props.dispatch(fetchPeople());
-      // console.log("I am people in DOM:", this.props)
+      console.log("I am people in DOM:", this.props)
     }
   }
 
