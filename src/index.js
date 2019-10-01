@@ -8,8 +8,6 @@ import reduxThunk from "redux-thunk";
 
 import appReducer from "./reducers/appReducer";
 
-import { fetchPeople } from './actions/peopleActions';
-
 const store = createStore(
   appReducer,
   compose(

@@ -4,7 +4,7 @@ function getPeople(dispatch) {
   return fetch(`https://jsonplaceholder.typicode.com/users?_limit=28`)
     .then(res => res.json())
     .then(people => {
-      console.log("I am people:", people)
+      // console.log("I am people:", people)
       return { people }
     })
 }
