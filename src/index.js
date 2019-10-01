@@ -8,7 +8,7 @@ import reduxThunk from "redux-thunk";
 
 import appReducer from "./reducers/appReducer";
 
-// import { fetchMe } from './actions/AsyncActions' ???
+import { fetchPeople } from './actions/peopleActions';
 
 const store = createStore(
   appReducer,

@@ -25,7 +25,7 @@ export default function userReducer(
       return {
         ...state,
         loading: false,
-        items: action.payload.users
+        items: action.payload.people
       };
     case FETCH_PEOPLE_FAILURE:
       return {
