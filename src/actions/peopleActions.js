@@ -1,4 +1,4 @@
-import * as actions from '../constants/appConstants'
+import * as actions from '../constants/appConstants';
 
 function getPeople(dispatch) {
   return fetch(`https://jsonplaceholder.typicode.com/users?_limit=28`)
