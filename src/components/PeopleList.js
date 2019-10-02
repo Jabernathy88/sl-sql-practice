@@ -21,12 +21,12 @@ export class PeopleList extends Component {
     }
 
     return (
-      <div className="posts-list-current-user">
+      <div className="posts-list-current-user col-5">
         HELLO FROM PEOPLE LIST
         <hr />
         {console.log("I AM PEOPLE IN RETURN:", people)}
         {people && people.map(person => (
-          <div key={person.id} className="border my-1 p-2">
+          <div key={person.id} className="border my-1 p-2 bg-white">
             <h4>By: {person.name}</h4>
             <p>{person.email}</p>
             <hr />

@@ -5,8 +5,7 @@ const HomePage = () => {
   return (
     <div className="row py-3 px-0 m-0">
       <PeopleList />
-      {/* <ColumnRight /> */}
-      <div>Hello from Right</div>
+      <PeopleList />
     </div>
   );
 };
