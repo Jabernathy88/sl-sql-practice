@@ -43,13 +43,25 @@ solution_4 = Engineer
   .order("COUNT(engineers.id) DESC")
   .order("countries.region DESC")
 
-puts "I am regions: "
-pp solution_4
+# puts "I am regions: "
+# pp solution_4
 
 # 5. Find who published the book with the highest average rating.
+# INCOMPLETE
+solution_5 = Bookshelf.all.sort_by { |shelf| shelf[:rating].to_i }
+
+# puts "I am solution 5: "
+# pp solution_5.reverse!.first
 
 # 6. Find the capital of the country where the oldest person in the team that shipped the most features comes from.
+team_most_features = Team.order(features_shipped: :desc).first
+oldest_on_team = Engineer.where(team: team_most_features).order(age: :desc).first
+solution_6 = oldest_on_team.country.capital
+
+puts "I am solution 6: "
+pp solution_6
 
 # 7. Find the inventor of the third most used programming language by the teams on the most populated floor.
+# HERE
 
 # 8. Find the book least read by the the engineers who develop in Ruby.
