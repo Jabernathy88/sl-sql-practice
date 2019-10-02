@@ -1,15 +1,13 @@
 import React from 'react';
 import '../styles/app.css';
-import PeopleList from '../components/PeopleList';
+import HomePage from './Homepage';
+import Header from '../components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello from SL Sample App</h1>
-      <PeopleList />
-
-      <p>Yes.</p>
-
+    <div className="app bg-blue-grey">
+      <Header />
+      <HomePage />
     </div>
   );
 }
