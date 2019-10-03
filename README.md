@@ -15,7 +15,10 @@ This exercise includes three sections that will help us gain a better understand
 This is how the exercise is structured with an indication of how much of the total time you should spend on each part.
 
 - [Part 1 - database design (10%)](#1-design-a-database)
+
 - [Part 2 - sql hunt (30%)](#2-the-sql-hunt)
+
+See queries.rb file ...
 
 - [Part 3 - simple web app (60%)](#3-build-a-simple-web-app)
 
