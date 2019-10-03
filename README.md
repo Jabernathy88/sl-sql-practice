@@ -22,7 +22,7 @@ See queries.rb file ...
 
 - [Part 3 - simple web app (60%)](#3-build-a-simple-web-app)
 
-See React app link, TBD.
+See React app link, TBD ...
 
 ### 1. Design a database
 
