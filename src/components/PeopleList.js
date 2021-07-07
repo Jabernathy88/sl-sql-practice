@@ -6,6 +6,7 @@ export class PeopleList extends Component {
   componentDidMount() {
     if (this.props.dispatch) {
       this.props.dispatch(fetchPeople());
+      // console.log("... and I am ENV variable:", process.env.SL_API_KEY)
       // console.log("I am people in DOM:", this.props)
     }
   }
@@ -21,7 +22,7 @@ export class PeopleList extends Component {
     }
 
     return (
-      <div className="posts-list-current-user col-5">
+      <div className="posts-list-current-user col-6">
         HELLO FROM PEOPLE LIST
         <hr />
         {console.log("I AM PEOPLE IN RETURN:", people)}
